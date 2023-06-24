@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+        <title>Unit Conversion Calculator</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div id="header-container">
+                <h1 id="main-title">Unit Conversion Calculator</h1>
+                <h2 id="sub-heading">Metric ⇆ Imperial</h2>
+                <input type="number" id="user-input" min="0" name="form-0-quantity" value="0"/>
+            </div>
+    
+            <div id="conversion-container">
+                <h3 class="measurement-title" id="length">Length (meter/feet)</h3>
+                <span class="conversion-output" id="length-output">0 meters = 0 feet | 0 feet = 0 meters</span>
+                <h3 class="measurement-title" id="volume">Volume (litres/gallons)</h3>
+                <span class="conversion-output" id="volume-output">0 litres = 0 gallons | 0 gallons = 0 litres</span>
+                <h3 class="measurement-title" id="mass">Mass (kilograms/pounds)</h3>
+                <span class="conversion-output" id="mass-output">0 kilograms = 0 pounds | 0 pounds = 0 kilograms</span>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
