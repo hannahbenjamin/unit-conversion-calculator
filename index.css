@@ -50,6 +50,11 @@ html, body {
     margin: auto;
 }
 
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
 #conversion-container {
     background: #1F2937;
     margin: -2.7% 0 0 0;
