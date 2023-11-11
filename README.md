@@ -3,7 +3,9 @@ A simple unit conversion calculator that is web-based and seamlessly converts fr
 
 # Key Features
 User-friendly interface: Incorporates a clean user interface, that promotes intuitive and easy use.
+
 Instant and seamless conversion: Instantly and seamlessly converts between metric and imperial units as the user enters their input without the requirement of selecting an "enter" button.
+
 Responsive design: Ensures compatibility on various devices, from desktops to phones.
 
 # Screenshot
